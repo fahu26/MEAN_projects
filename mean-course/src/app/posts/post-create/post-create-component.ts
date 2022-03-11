@@ -18,6 +18,7 @@ export class PostCreateComponent{
       return
     }
     const posts = {
+      id: 0,
       title: form.value.title,
       content: form.value.content
     }
